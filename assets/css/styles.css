@@ -1,0 +1,122 @@
+*{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+  font-family: ubuntu;
+  font-size: 140%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fcfcfc;
+  padding-top: 65px;
+}
+nav.navbar{
+  border-radius: 0px;
+}
+.navbar-brand{
+  font-family: lobster;
+}
+.spn{
+  font-size: 16px;
+}
+a.action:hover{
+  -webkit-box-shadow: 0 8px 8px rgba(0,0,0,0.24), 0 0 8px rgba(0,0,0,0.12);
+          box-shadow: 0 8px 8px rgba(0,0,0,0.24), 0 0 8px rgba(0,0,0,0.12);
+}
+button:hover{
+  -webkit-box-shadow: 0 8px 8px rgba(0,0,0,0.24), 0 0 8px rgba(0,0,0,0.12);
+          box-shadow: 0 8px 8px rgba(0,0,0,0.24), 0 0 8px rgba(0,0,0,0.12);
+}
+.carousel-caption{
+  text-shadow: 4px 4px 4px #1F2329;
+}
+.bold{
+  font-weight: bold;
+}
+img{
+  max-width: 100%;
+}
+.center {
+  display: block;
+  margin: 0 auto !important;
+}
+.profile-photo {
+  margin: 0 auto; 
+}
+.panel-primary {
+  border-color: #1C73BD;
+}
+.panel-primary .panel-heading {
+  border-color: #1C73BD;
+  color: #fff;
+  background-color: #1C73BD;
+}
+.panel-green {
+    border-color: #18bc9c;
+}
+.panel-green .panel-heading {
+  border-color: #18bc9c;
+  color: #fff;
+  background-color: #18bc9c;
+}
+.panel-yellow {
+  border-color: #F2A230;
+}
+.panel-yellow .panel-heading {
+  border-color: #F2A230;
+  color: #fff;
+  background-color: #F2A230;
+}
+.huge {
+  font-size: 25px;
+}
+.newsletter, .aside-content{
+  padding: 20px 10px;
+}
+label>span.text-info{
+  font-weight: normal;
+}
+.text-white{
+  color: #fff;
+}
+.color{
+  background-color: #2c3e50 !important;
+  color: #fff !important;
+}
+
+.stats-row {
+  margin-top: 65px;
+}
+
+.stats-col .circle {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #666;
+  border: 6px solid #2c3e50;
+  border-radius: 50%;
+  padding: 55px 25px 0 25px;
+  position: relative;
+}
+
+.stats-col .circle .stats-no {
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top: -25px;
+  right: -15px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: #E04F00;
+  position: absolute;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+
+footer{
+  padding: 20px 0;
+}
